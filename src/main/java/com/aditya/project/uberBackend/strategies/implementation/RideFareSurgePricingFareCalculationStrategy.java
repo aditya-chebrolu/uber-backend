@@ -6,6 +6,6 @@ import com.aditya.project.uberBackend.strategies.RideFareCalculationStrategy;
 public class RideFareSurgePricingFareCalculationStrategy implements RideFareCalculationStrategy {
     @Override
     public double calculateFare(RideRequestDto rideRequestDto) {
-        return 1;
+        return 0;
     }
 }
